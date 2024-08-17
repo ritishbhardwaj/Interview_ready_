@@ -16,7 +16,6 @@ def sol(n,d):
     
     while n>=d:
         cnt=0
-        x=0
         while ((d<<cnt)<=n):
             cnt+=1
         # cnt=(1<<x-1)
